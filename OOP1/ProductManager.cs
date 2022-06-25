@@ -6,9 +6,9 @@ namespace OOP1
 {
     class ProductManager
     {
-        public void Add()
+        public void Add(Product product)
         {
-
+            product.ProductName = "Kamera";
         }
-    }
+        
 }
